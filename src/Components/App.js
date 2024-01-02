@@ -8,7 +8,7 @@ const App=()=>{
  const [data, setData]=useState([]);
     return (
         <div>
-            <ImageApi setData={setData}/>
+            <ImageApi setData={setData} images={data}/>
          <ImageList  images={data}/>
         </div>
     )
